@@ -12,3 +12,7 @@
     max-height: 100px;
     overflow-y: scroll;
 }
+
+body {
+    background-color: rgb(0,100,0);
+}
