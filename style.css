@@ -1,11 +1,11 @@
+
 .board {
     width: 45%;
     margin: auto
 }
 
 .info {
-    width: 400px;
-    margin: auto;
+   display:none;
 }
 
 .move-history {
@@ -14,5 +14,169 @@
 }
 
 body {
-    background-color: rgb(0,100,0);
+    background-color: var(--color2);
 }
+
+
+
+:root {
+    --color1: rgb(0,255,0);
+    --color2: rgb(0,100,0);
+    --color3: rgb(0,150,0);
+}
+
+.title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    color: var(--color1);
+}
+
+.label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: var(--color1);
+}
+
+.btns {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.group {
+    justify-content: center;
+    display: flex;
+    width: 182px;
+    background-color: black;
+}
+.group:hover {
+    background-color: var(--color3);
+    color: var(--color1);
+    cursor: pointer;
+}
+
+
+.settings-page {
+    margin-top: 2%;
+}
+
+.btn {
+    color: var(--color1);
+    font-size: 20px;
+    background-color: black;
+}
+
+
+/* clearfix */
+.clearfix-7da63 {
+    clear: both;
+  }
+  
+  /* board */
+  .board-b72b1 {
+    border: 2px solid #404040;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  
+  /* square */
+  .square-55d63 {
+    float: left;
+    position: relative;
+  
+    /* disable any native browser highlighting */
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  /* white square */
+  .white-1e1d7 {
+    background-color: var(--color3);
+    color: #b58863;
+    width: 75px;
+    height: 75px;
+  }
+  
+  /* black square */
+  .black-3c85d {
+    background-color: var(--color1);
+    color: #f0d9b5;
+    width: 75px;
+    height: 75px;
+  }
+  
+  /* highlighted square */
+  .highlight1-32417, .highlight2-9c5d2 {
+    -webkit-box-shadow: inset 0 0 3px 3px yellow;
+    -moz-box-shadow: inset 0 0 3px 3px yellow;
+    box-shadow: inset 0 0 3px 3px yellow;
+  }
+  
+  /* notation */
+  .notation-322f9 {
+    cursor: default;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    position: absolute;
+  }
+  .alpha-d2270 {
+    bottom: 1px;
+    right: 3px;
+  }
+  .numeric-fc462 {
+    top: 2px;
+    left: 2px;
+  }
+
+
+
+
+
+  .dropbtn {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border: 1px solid white;
+    width: 182px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      background-color: var(--color3);
+      color: var(--color1);
+    }

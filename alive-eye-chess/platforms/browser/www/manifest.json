@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
-  "version": "io.cordova.hellocordova",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "name": "Alive Eye Chess",
+  "short_name": "Alive Eye Chess",
+  "version": "com.aliveEyeHealth.aliveEyeChess",
+  "description": "Alive Eye Health's chess game.",
   "author": "Apache Cordova Team",
   "icons": [],
   "start_url": "index.html"

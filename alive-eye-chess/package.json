@@ -1,8 +1,8 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloCordova",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "name": "aliveeyechess",
+  "displayName": "Alive Eye Chess",
+  "version": "1.0.1",
+  "description": "Play the classic chess game in Alive Eye Heath's Green Theme.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,9 +14,8 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-android": "^8.0.0",
+    "cordova-android": "^8.1.0",
     "cordova-browser": "^6.0.0",
-    "cordova-ios": "^5.0.1",
     "http-server": "^0.11.1"
   },
   "devDependencies": {
@@ -27,9 +26,8 @@
       "cordova-plugin-whitelist": {}
     },
     "platforms": [
-      "ios",
-      "android",
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }
